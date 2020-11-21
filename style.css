@@ -1,5 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    background-color: wheat;
 }
+
+body {
+    background-image: url(/images/header1.svg);
+}
+
+.header {
+    max-height: 820px;
+    text-align: center;
+}
+
+.header h1 {
+
+}
+
+.header p {
+    max-width: 345px;
+}
+.andra-container{
+    max-height: 80px;
+    display: flex;
+justify-content: flex-end;   
