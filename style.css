@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Aleo', serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 body {
@@ -12,14 +14,13 @@ body {
     text-align: center;
 }
 
-.header h1 {
-
-}
+.header h1 {}
 
 .header p {
     max-width: 345px;
 }
-.andra-container{
+
+.andra-container {
     max-height: 80px;
     display: flex;
-justify-content: flex-end;   
+    justify-content: flex-end;
