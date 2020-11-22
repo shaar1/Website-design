@@ -48,9 +48,10 @@ body {
 
 .form {
     margin-top: 48px;
-    max-width: 650px;
-    min-height: 60px;
+    width: 650px;
+    height: 60px;
     display: flex;
+    align-items: center;
     justify-content: center;
     text-align: center;
 }
@@ -203,6 +204,7 @@ body {
     background: #333333;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .footer2 .items {
@@ -233,4 +235,238 @@ body {
     height: 26px;
     width: 244px;
     text-decoration: none;
+}
+
+.banner2 {
+    background: url(/images/7.svg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner2 dialog {
+    margin-top: 10%;
+    margin-left: 30%;
+    max-width: 540px;
+    min-height: 371px;
+    background: #232323;
+    opacity: 0.9;
+}
+
+.banner2 h3 {
+    margin: 47px 0 0 30px;
+    max-width: 80px;
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.5px;
+    color: #E8E8E8;
+}
+
+.banner2 h1 {
+    margin: 23px 0 0 30px;
+    max-width: 241px;
+    min-height: 26px;
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    display: flex;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.banner2 p {
+    margin: 13px 0 0 30px;
+    max-width: 508px;
+    min-height: 78px;
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    display: flex;
+    text-align: left;
+    color: #E8E8E8;
+}
+
+.banner2 dialog button {
+    margin: 46px 0 0 30px;
+    max-width: 228px;
+    min-height: 63px;
+    font-family: 'Aleo';
+    background: #5474FD;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.banner3 {
+    background: url(/images/8.svg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner3 dialog {
+    max-width: 540px;
+    min-height: 371px;
+    background: #232323;
+    opacity: 0.9;
+    margin-left: 66%;
+    margin-top: 8%;
+
+}
+
+.banner3 h3 {
+    margin: 47px 0 0 30px;
+    max-width: 80px;
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.5px;
+    color: #E8E8E8;
+}
+
+.banner3 h1 {
+    margin: 23px 0 0 30px;
+    max-width: 241px;
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    display: flex;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.banner3 p {
+    margin: 13px 0 0 30px;
+    max-width: 508px;
+    min-height: 78px;
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    display: flex;
+    text-align: left;
+    color: #E8E8E8;
+}
+
+.banner3 dialog button {
+    margin: 46px 0 0 30px;
+    max-width: 228px;
+    min-height: 63px;
+    font-family: 'Aleo';
+    background: #5474FD;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.banner4 {
+    background: url(/images/9.svg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner4 h1 {
+    min-width: 390px;
+    font-family: 'Aleo';
+    font-size: 36px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.div11 h1 {
+    min-width: 150px;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FEFEFE;
+}
+
+.div11 p {
+    width: 581px;
+    height: 165px;
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #E8E8E8;
+}
+
+.footer5 {
+    background: #232323;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    min-height: 271px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer5 h1 {
+    margin-top: 122px;
+    min-width: 193px;
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer5 p {
+    margin-top: 8px;
+    min-width: 196px;
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+}
+
+.bilder {
+    margin-top: 20px;
+    min-width: 166px;
+
+
+    display: flex;
+    
+}
+.bilder img{
+    width: 45px;
+    height: 26px;
 }
