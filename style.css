@@ -2,13 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Aleo', serif;
-}
-
-p {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 22px;
     text-align: center;
-    color: white;
 }
 
 .banner {
@@ -21,7 +15,108 @@ p {
     background: url(/images/header1.svg);
     background-size: cover;
 }
-.banner .container{
+
+.banner .container {
     max-width: 650px;
     text-align: center;
+}
+
+.banner .container h1 {
+    font-size: 48px;
+    color: #fff;
+    font-family: 'Josefin Sans';
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+}
+
+.banner .container p {
+    font-family: 'Josefin Sans';
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+}
+
+.form {
+    max-width: 650px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.form .search {
+    max-width: 500px;
+    min-height: 60px;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+.form .btn {
+    max-width: 150px;
+    min-height: 60px;
+    background: #5474FD;
+    border: 2px solid #FFFFFF;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    letter-spacing: 6px;
+}
+
+.footer {
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 80px;
+    background: #5474FD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer .logo {
+    font-family: 'Josefin Sans';
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 21%;
+    text-decoration: none;
+}
+
+.footer .navigation {
+    font-family: 'Aleo';
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    display: flex;
+    margin-right: 19%;
+    
+}
+
+.footer .navigation li {
+    max-width: 148px;
+    list-style: none;
+    
+
+}
+
+.footer .navigation li a {
+    text-decoration: none;
+    font-family: 'Aleo';
+    font-size: 14px;
+    margin-left: 11px;
+    color: #fff;
+
+
+    
 }
