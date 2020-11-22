@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Aleo', serif;
     text-align: center;
 }
 
@@ -25,8 +24,8 @@
     font-size: 48px;
     color: #fff;
     font-family: 'Josefin Sans';
-    font-size: 48px;
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
     letter-spacing: 4.8px;
@@ -38,33 +37,39 @@
     font-size: 22px;
     text-align: center;
     color: #fff;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 6.8px;
 }
 
 .form {
-    max-width: 650px;
     margin-top: 48px;
+    max-width: 650px;
+    min-height: 60px;
     display: flex;
     justify-content: center;
-
-
+    text-align: center;
 }
 
 .form .search {
-    max-width: 500px;
-    min-height: 60px;
+    min-width: 500px;
     background: #FFFFFF;
     text-align: center;
 }
 
 .form .btn {
-    max-width: 150px;
-    min-height: 60px;
+    min-width: 150px;
     background: #5474FD;
+    color: #fff;
     border: 2px solid #FFFFFF;
-    display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
     transition: 0.5s;
+    text-align: center;
+    font-family: 'Aleo';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 .btn:hover {
@@ -80,13 +85,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .footer .logo {
     font-family: 'Josefin Sans';
     color: #fff;
     font-weight: 700;
+    font-weight: bold;
     font-size: 24px;
     margin-left: 21%;
     text-decoration: none;
@@ -94,19 +99,23 @@
 
 .footer .navigation {
     font-family: 'Aleo';
+    font-style: normal;
     position: relative;
     font-size: 14px;
     font-weight: 400;
     text-align: left;
     display: flex;
     margin-right: 19%;
-    
+    text-transform: uppercase;
+
 }
 
 .footer .navigation li {
-    max-width: 148px;
     list-style: none;
-    
+    min-width: 117px;
+    padding: 11px;
+
+
 
 }
 
@@ -114,9 +123,5 @@
     text-decoration: none;
     font-family: 'Aleo';
     font-size: 14px;
-    margin-left: 11px;
     color: #fff;
-
-
-    
 }
