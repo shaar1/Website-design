@@ -179,6 +179,7 @@ body {
     font-family: 'Aleo';
     font-size: 16px;
     letter-spacing: 1.2px;
+    border: 0;
     color: #fff;
     background: #496BFE;
     text-align: center;
@@ -196,9 +197,40 @@ body {
 .grid-container .grid-item2 {}
 
 .footer2 {
+    border-top: 3px solid;
     width: 100%;
     min-height: 337px;
     background: #333333;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+}
+
+.footer2 .items {
+    height: 163px;
+    width: 353px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer2 .items img {
+    height: 59px;
+    width: 60px;
+    background: #333333;
+}
+
+.footer2 .items a {
+    margin-top: 38px;
+    font-family: 'Aleo';
+    font-size: 36px;
+    line-height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #E8E8E8;
+    height: 26px;
+    width: 244px;
+    text-decoration: none;
 }
