@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+body {
+    min-width: 1000px;
+}
+
 .banner {
     position: relative;
     width: 100%;
@@ -57,23 +61,24 @@
     text-align: center;
 }
 
-.form .btn {
+.form .btn1 {
     min-width: 150px;
     background: #5474FD;
     color: #fff;
     border: 2px solid #FFFFFF;
     text-transform: uppercase;
     text-decoration: none;
-    transition: 0.5s;
-    text-align: center;
     font-family: 'Aleo';
+    transition: 0.5s;
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
 }
 
-.btn:hover {
+.btn1:hover {
     letter-spacing: 6px;
+    color: #220808;
+    font-size: 20px;
 }
 
 .footer {
@@ -107,16 +112,13 @@
     display: flex;
     margin-right: 19%;
     text-transform: uppercase;
-
 }
 
 .footer .navigation li {
     list-style: none;
     min-width: 117px;
     padding: 11px;
-
-
-
+    letter-spacing: 1px;
 }
 
 .footer .navigation li a {
@@ -124,4 +126,76 @@
     font-family: 'Aleo';
     font-size: 14px;
     color: #fff;
+}
+
+.banner1 {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/images/2.svg);
+    background-size: cover;
+}
+
+.banner1 .artical {
+    display: flex;
+    flex-direction: column;
+    max-width: 560px;
+}
+
+.banner1 .title {
+    max-width: 288px;
+    font-family: 'Aleo';
+    font-size: 36px;
+    color: #fff;
+    align-items: center;
+    text-align: left;
+}
+
+.banner1 .text1 {
+    margin-top: 10%;
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    color: #E8E8E8;
+    text-align: left;
+}
+
+.banner1 .text2 {
+    margin-top: 3%;
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    color: #E8E8E8;
+    text-align: left;
+}
+
+.banner1 .btn2 {
+    margin-top: 10%;
+    width: 228px;
+    height: 63px;
+    font-family: 'Aleo';
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    color: #fff;
+    background: #496BFE;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: ;
+    grid-template-rows: ;
+}
+
+.grid-item1 {
+    
+
+}
+
+.grid-item2 {
+
 }
