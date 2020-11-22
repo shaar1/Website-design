@@ -81,7 +81,7 @@ body {
     font-size: 20px;
 }
 
-.footer {
+.footer1 {
     top: 0;
     left: 0;
     width: 100%;
@@ -92,7 +92,7 @@ body {
     align-items: center;
 }
 
-.footer .logo {
+.footer1 .logo {
     font-family: 'Josefin Sans';
     color: #fff;
     font-weight: 700;
@@ -102,7 +102,7 @@ body {
     text-decoration: none;
 }
 
-.footer .navigation {
+.footer1 .navigation {
     font-family: 'Aleo';
     font-style: normal;
     position: relative;
@@ -114,14 +114,14 @@ body {
     text-transform: uppercase;
 }
 
-.footer .navigation li {
+.footer1 .navigation li {
     list-style: none;
     min-width: 117px;
     padding: 11px;
     letter-spacing: 1px;
 }
 
-.footer .navigation li a {
+.footer1 .navigation li a {
     text-decoration: none;
     font-family: 'Aleo';
     font-size: 14px;
@@ -191,11 +191,14 @@ body {
     grid-template-rows: ;
 }
 
-.grid-item1 {
-    
+.grid-container .grid-item1 {}
 
-}
+.grid-container .grid-item2 {}
 
-.grid-item2 {
-
+.footer2 {
+    width: 100%;
+    min-height: 337px;
+    background: #333333;
+    display: flex;
+    justify-content: space-around;
 }
