@@ -202,9 +202,9 @@ body {
     grid-gap: 2px;
 }
 
-.grid-container .grid-item1 {}
+.grid-item1 {}
 
-.grid-container .grid-item2 {
+.grid-item2 {
     margin-left: 30%;
 }
 
@@ -325,7 +325,6 @@ body {
     width: 100%;
     min-height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -415,7 +414,6 @@ body {
 .container {
     display: flex;
     max-width: 1113px;
-
 }
 
 .container h1 {
